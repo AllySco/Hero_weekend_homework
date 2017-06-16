@@ -25,6 +25,10 @@ describe("quest", function() {
     assert.strictEqual( 100, quest1.reward );
   })
 
+  it("should have a completion status", function() {
+    assert.strictEqual( false, quest1.complete );
+  })
+
 
 
 
