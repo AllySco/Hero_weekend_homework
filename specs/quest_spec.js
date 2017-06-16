@@ -17,5 +17,9 @@ describe("quest", function() {
     assert.strictEqual( "Easy", quest1.difficulty );
   })
 
+  it("should have an urgency", function() {
+    assert.strictEqual( "Low", quest1.urgency );
+  })
+
 
 });
