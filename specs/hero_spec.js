@@ -22,14 +22,7 @@ describe("hero", function() {
   })
 
   it("should be able to talk", function() {
-    assert.strictEqual( "Scary Terry", hero.talk() );
+    assert.strictEqual( "I'm Scary Terry, bitch", hero.talk() );
   })
-
-
-
-
-
-
-
 
 });

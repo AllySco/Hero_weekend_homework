@@ -7,19 +7,8 @@ var Hero = function( name, health, favFood ) {
 
 Hero.prototype = {
   talk: function() {
-    return this.name
+    return "I'm " + this.name + ", bitch"
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 module.exports = Hero;
