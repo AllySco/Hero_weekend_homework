@@ -13,7 +13,9 @@ describe("quest", function() {
     assert.strictEqual( "Save the cat", quest1.questName );
   })
 
-
+  it("should have a difficulty", function() {
+    assert.strictEqual( "Easy", quest1.difficulty );
+  })
 
 
 });
